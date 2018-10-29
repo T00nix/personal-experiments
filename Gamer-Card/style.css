@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+.content {
+    max-width: 100%;
+}
+
+#NES {
+    display: flex;
+    justify-content: right;
+     
+}
+
