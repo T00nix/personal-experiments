@@ -2,13 +2,24 @@
     margin: 0;
 }
 
+article {
+    width: 35em;
+    height: 22em;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1em;
+    margin: 5em auto
+}
+
 .content {
-    max-width: 100%;
+    margin-top: 15%;
+    margin-left: 5%;
+    background-color: blueviolet
 }
 
 #NES {
-    display: flex;
-    justify-content: right;
-     
+    max-height: 5em;
+    background-color: aqua; 
 }
 
