@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 article {
@@ -16,7 +18,7 @@ article {
 h1 {
     display: flex;
     align-self: center;
-    
+
 }
 
 h3 {
