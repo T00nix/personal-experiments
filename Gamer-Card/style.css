@@ -7,7 +7,7 @@
 article {
     width: 35em;
     height: 22em;
-    background-image: url(/monster_hunter.jpg);
+    background-image: url(./monster_hunter.jpg);
     background-size: cover;
     background-position: right;
     display: flex;
