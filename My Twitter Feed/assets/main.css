@@ -68,7 +68,7 @@ nav {
     padding: 2px 15px
 }
 
-.my-profil-pic {
+.profil-pic {
     border-radius: 100%;
     width: 30px;
     height: 30px;
@@ -115,3 +115,12 @@ nav {
     height: 60px;
 }
 
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zdf-beitrag {
+    width: 100px;
+    border-radius: 10%;
+}
