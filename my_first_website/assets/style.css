@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 5%;
+    background-image: url(./images/yn_comet.jpg);
+    background-size: cover;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 20%;
+    float: left;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+}
