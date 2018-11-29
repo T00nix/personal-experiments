@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../sass/main.scss"
+	],
+	"sourcesContent": [
+		"header ul{\n    display: flex;\n    li{\n        background-color: hotpink;\n        color: blue;\n        margin: 10px\n    }\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,CAAC,EAAE,CAAA;EACL,OAAO,EAAE,IAAI,GAMhB;EAPD,AAEI,MAFE,CAAC,EAAE,CAEL,EAAE,CAAA;IACE,gBAAgB,EAAE,OAAO;IACzB,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IACZ,GAAC"
+}
