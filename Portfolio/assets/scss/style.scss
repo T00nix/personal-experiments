@@ -1,9 +1,5 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-@import "./layout.scss";
-@import "./variables";
-@import "./_typography";
+@import "./flames";
+@import "../scss/_my-own-styles";
 
-// button, html [type="button"], [type="reset"], [type="submit"] {
-//     outline: none;
-// }

@@ -8,29 +8,32 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Projects</title>
 </head>
-
-<header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="../index.html">T00NIX</a>
-    
-                <div class="btn-group">
-                        <button href="./Projects.html" type="button" class="btn btn-light">Project</button>
-                        <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+<body>
+        <header>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand text-light mx-auto" href="../index.html">T00NIX</a>
+            
+                    <div class="btn-group mx-auto">
+                        <a href="./Projects.html" class="btn btn-link btn-custom">Project</a>
+            
+                        <button type="button" class="btn btn-link dropdown-toggle dropdown-toggle-split btn-custom" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             <span class="sr-only">Toggle Dropdown</span>
-                    </button>
+                        </button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">1st Project</a>
-                            <a class="dropdown-item" href="#">2nd Project</a>
-                            <a class="dropdown-item" href="#">3rd Project</a>
+                            <a class="dropdown-item" href="#first">1st Project</a>
+                            <a class="dropdown-item" href="#second">2nd Project</a>
+                            <a class="dropdown-item" href="#third">3rd Project</a>
                         </div>
-            
-                        <a href="./contact.html" class="btn btn-light">Contact</a>
+                        <a href="./contact.html" class="btn btn-link ml-2 btn-custom">Contact</a>
+                    </div>
                 </nav>
-    </header>
-    
-    <body>
-    
+            </header>
+            <main>
+                <article id="first"></article>
+                <article id="second"></article>
+                <article id="third"></article>
+            </main>
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
