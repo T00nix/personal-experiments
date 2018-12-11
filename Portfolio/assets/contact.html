@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Contact</title>
 </head>
@@ -14,97 +15,53 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand text-light mx-auto" href="../index.html">T00NIX</a>
 
-            <div class="btn-group mx-auto">
-                <a href="./Projects.html" class="btn btn-link btn-custom">Project</a>
+            <div class="mx-auto">
+                <a href="./me.html" class="btn btn-link ml-2 btn-custom">About me</a>
 
-                <button type="button" class="btn btn-link dropdown-toggle dropdown-toggle-split btn-custom" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    <span class="sr-only">Toggle Dropdown</span>
-                </button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./Projects.html#first">1st Project</a>
-                    <a class="dropdown-item" href="./Projects.html#second">2nd Project</a>
-                    <a class="dropdown-item" href="./Projects.html#third">3rd Project</a>
+                <div class="btn-group mx-auto">
+                    <a href="./Projects.html" class="btn btn-link btn-custom">Project</a>
+
+                    <button type="button" class="btn btn-link dropdown-toggle dropdown-toggle-split btn-custom"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#first">1st Project</a>
+                        <a class="dropdown-item" href="#second">2nd Project</a>
+                        <a class="dropdown-item" href="#third">3rd Project</a>
+                    </div>
                 </div>
+
                 <a href="./contact.html" class="btn btn-link ml-2 btn-custom">Contact</a>
             </div>
         </nav>
     </header>
-    <main>
-        <div class="jumbotron bg-secondary jumbotron-custom mx-auto">
-            <h1 class="display-4">Oh, you want to message me?</h1>
-            <p class="lead">Sure thing! Just send me an E-Mail by filling out the formular bellow. I will try to answer
-                as quickly as possible</p>
-        </div>
-        <form class="text-light mx-auto custom-form">
-            <div class="form-group">
-                <label for="FormControlInput">Your E-Mail Adress</label>
-                <input type="email" class="form-control" id="FormControlInput" placeholder="your-email@whatever.com"
-                    required>
+    <main class="bg-burned">
+        <div class="above-fire position-custom">
+            <div class="jumbotron jumbotron-custom jumbotron-bg mx-auto animated fadeIn delay-1s">
+                <h1 class="display-4 text-color-custom animated fadeIn delay-2s">Oh, you want to message me?</h1>
+                <p class="lead text-color-custom animated fadeIn delay-3s">Sure thing! Just send me an E-Mail by
+                    filling out the formular below.
+                    I will try to
+                    answer
+                    as quickly as possible.</p>
             </div>
-            <div class="form-group">
-                <label for="FormControlTextarea">Your Message</label>
-                <textarea class="form-control" id="FormControlTextarea" rows="3" required></textarea>
-
-            </div>
-            <button type="submit" class="btn btn-secondary mr-3">Send</button>
-        </form>
-    </main>
-    <footer>
-            <div class="fire">
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
-                    <div class="particle"></div>
+            <form class="text-color-custom mx-auto custom-form animated zoomIn delay-4s">
+                <div class="form-group">
+                    <label for="FormControlInput">Your E-Mail Adress</label>
+                    <input type="email" class="form-control" id="FormControlInput" placeholder="your-email@whatever.com"
+                        required>
                 </div>
+                <div class="form-group">
+                    <label for="FormControlTextarea">Your Message</label>
+                    <textarea class="form-control" id="FormControlTextarea" rows="3" required></textarea>
 
-    </footer>
+                </div>
+                <button type="submit" class="btn btn-secondary mr-3">Send</button>
+            </form>
+        </div>
+
+    </main>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

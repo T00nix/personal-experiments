@@ -1,0 +1,33 @@
+$text-white: #FFF;
+$text-on-wood: 2px 2px 0px rgba(0, 0, 0, 1);;
+$nav-text-border: darken(#FFF,30%);
+
+
+.size-lg {
+    font-size: 90px
+}
+
+.size-med {
+    font-size: 40px
+}
+
+
+.size-sm {
+    font-size: 25px
+}
+
+
+.btn-custom {
+    color: $text-white;
+}
+
+.btn-custom:hover {
+color: $text-white;
+text-decoration: none;
+border: 1px  solid $nav-text-border;
+}
+
+.text-color-custom {
+    color: $text-white;
+    text-shadow: $text-on-wood;
+}

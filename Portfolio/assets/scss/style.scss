@@ -1,5 +1,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 @import "./flames";
+@import "../scss/layout";
+@import "../scss/typographyAndButton";
 @import "../scss/_my-own-styles";
-
+@import "./jumbotron-custom";

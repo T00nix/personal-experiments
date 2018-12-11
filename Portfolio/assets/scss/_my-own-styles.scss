@@ -1,35 +1,21 @@
-$text-white: #FFF;
-$nav-text-border: darken(#FFF,30%);
-$background-jumbo: lighten(rgb(48, 8, 8),10%);
+$mainColor: rgb(48,8,8);
 
 
-.btn-custom {
-        color: $text-white;
+body {
+    background-image: url(../images/wood.jpeg)
 }
 
-.btn-custom:hover {
-    color: $text-white;
-    text-decoration: none;
-    border: 1px  solid $nav-text-border;
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0), 
+    rgba(0, 0, 0, 0.6));
+    background-color: $mainColor;
 }
 
-.jumbotron-custom {
-    // as much as I hate "!important" sadly I'm forced to use it, because the Bootstrap-Guys used it and without it, I can't overwrite their style
-    background-color: $background-jumbo!important;
-    color:  $text-white;
-    text-align: center;
-
-    width: 90vw;
-    h1{
-        font-size: 3rem;
-    }
-}
-
-.custom-form {
+.carousel-custom {
     width: 50vw;
-    position: relative;
-    top: 2rem;
-    button {
-        float: right;
+    .img-custom {
+        -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0, 0, 0, 0.7)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.7));
     }
 }
+

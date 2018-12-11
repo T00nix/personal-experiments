@@ -1,0 +1,36 @@
+main {
+    height: 100vh;
+}
+
+
+
+
+.custom-form {
+    width: 50vw;
+    top: 2rem;
+    button {
+        float: right;
+    }
+}
+
+.bg-burned {
+    position: relative;
+    z-index: 0;
+}
+
+.fire {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    z-index: 1;
+    }
+    
+    .above-fire {
+        position: relative;
+        z-index: 2;
+    }
+
+    .position-custom {
+        position: relative;
+        top: 10%;
+    }
