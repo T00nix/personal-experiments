@@ -1,19 +1,27 @@
-$text-white: #FFF;
-$text-on-wood: 2px 2px 0px rgba(0, 0, 0, 1);;
-$nav-text-border: darken(#FFF,30%);
+@import url('https://fonts.googleapis.com/css?family=New+Rocker');
+
+
+$text-white: rgb(255, 255, 255);
+$text-on-wood: 3px 3px 0px rgba(0, 0, 0, 1);;
+$nav-text-border: darken(rgb(255, 255, 255),30%);
+
+
+.newRocker {
+    font-family: 'New Rocker', cursive;
+}
 
 
 .size-lg {
-    font-size: 90px
+    font-size: 150px
 }
 
 .size-med {
-    font-size: 40px
+    font-size: 80px
 }
 
 
 .size-sm {
-    font-size: 25px
+    font-size: 50px
 }
 
 

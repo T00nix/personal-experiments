@@ -1,0 +1,97 @@
+
+
+.anime-in {
+    position: absolute;
+    visibility: hidden;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    animation-name: exciting1;
+    animation-duration: 8299.156884126342ms;
+    animation-delay: 3824ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+
+}
+
+@keyframes exciting1 {
+    0% {
+        position: absolute;
+        visibility: visible;
+        right: -350px;
+        bottom: 15px;
+    }
+
+    100% {
+        position: absolute;
+        right: 20px;
+        bottom: 15px;
+    }
+}
+
+.anime-out {
+    position: absolute;
+    visibility: hidden;
+    animation-name: exciting2;
+    animation-duration: 14014.8764148833ms;
+    animation-delay: 19774.5148629047ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+
+}
+
+@keyframes exciting2 {
+
+    0% {
+        position: absolute;
+        visibility: visible;
+        right: 20px;
+        bottom: 15px;
+    }
+
+    100% {
+        position: absolute;
+        visibility: hidden;
+        right: -350px;
+        bottom: 15px;
+    }
+}
+
+.anime-stay {
+    position: absolute;
+    visibility: hidden;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    animation-name: exciting3;
+    animation-duration: 7691.30845798282ms;
+    animation-delay: 12100.0003913595ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+
+}
+
+@keyframes exciting3 {
+
+    0% {
+        position: absolute;
+        visibility: visible;
+        right: 20px;
+        bottom: 15px;
+    }
+
+    100% {
+        position: absolute;
+        visibility: visible;
+        right: 20px;
+        bottom: 15px;
+    }
+}

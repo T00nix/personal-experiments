@@ -1,10 +1,17 @@
+$bg-wood: url(../images/wood.jpeg);
+$mozJtShadow: 0px 0px 30px 10px rgba(0,0,0,0.75);
+$webkitJtShadow: 0px 0px 30px 10px rgba(0,0,0,0.75);
+$normJtShadow: 0px 0px 30px 10px rgba(0,0,0,0.75);
+
+
+
 @mixin bg-img($position:0 0,$repeat: no-repeat){
     background: {
         position: $position;
         repeat: $repeat;
-        
     }
 }
+
 
 
 .jumbotron-custom {
@@ -12,9 +19,6 @@
     text-align: center;
 
     width: 90vw;
-    h1{
-        font-size: 3rem;
-    }
 }
 
 
@@ -22,9 +26,14 @@
     background: linear-gradient(
         rgba(0, 0, 0, 0.6), 
         rgba(0, 0, 0, 0.6)),
-        url("../images/wood.jpeg");
+        $bg-wood;
     @include bg-img;
-    -webkit-box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: $webkitJtShadow;
+    -moz-box-shadow: $mozJtShadow;
+    box-shadow: $normJtShadow;
 }
+
+.containerGif {
+    width: 100vw!important;
+}
+

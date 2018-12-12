@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=New+Rocker");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6337,154 +6338,154 @@ a.text-dark:hover, a.text-dark:focus {
   width: 5em;
   height: 5em; }
   .particle:nth-of-type(1) {
-    animation-delay: 0.0786s;
+    animation-delay: 0.47485s;
     left: calc((100% - 5em) * 0); }
   .particle:nth-of-type(2) {
-    animation-delay: 0.51979s;
+    animation-delay: 0.74486s;
     left: calc((100% - 5em) * 0.02); }
   .particle:nth-of-type(3) {
-    animation-delay: 0.34498s;
+    animation-delay: 0.43977s;
     left: calc((100% - 5em) * 0.04); }
   .particle:nth-of-type(4) {
-    animation-delay: 0.52083s;
+    animation-delay: 0.42352s;
     left: calc((100% - 5em) * 0.06); }
   .particle:nth-of-type(5) {
-    animation-delay: 0.87751s;
+    animation-delay: 0.49762s;
     left: calc((100% - 5em) * 0.08); }
   .particle:nth-of-type(6) {
-    animation-delay: 0.34742s;
+    animation-delay: 0.34302s;
     left: calc((100% - 5em) * 0.1); }
   .particle:nth-of-type(7) {
-    animation-delay: 0.04805s;
+    animation-delay: 0.75892s;
     left: calc((100% - 5em) * 0.12); }
   .particle:nth-of-type(8) {
-    animation-delay: 0.34864s;
+    animation-delay: 0.64433s;
     left: calc((100% - 5em) * 0.14); }
   .particle:nth-of-type(9) {
-    animation-delay: 0.59641s;
+    animation-delay: 0.16158s;
     left: calc((100% - 5em) * 0.16); }
   .particle:nth-of-type(10) {
-    animation-delay: 0.65234s;
+    animation-delay: 0.45168s;
     left: calc((100% - 5em) * 0.18); }
   .particle:nth-of-type(11) {
-    animation-delay: 0.24068s;
+    animation-delay: 0.92771s;
     left: calc((100% - 5em) * 0.2); }
   .particle:nth-of-type(12) {
-    animation-delay: 0.55647s;
+    animation-delay: 0.22357s;
     left: calc((100% - 5em) * 0.22); }
   .particle:nth-of-type(13) {
-    animation-delay: 0.94139s;
+    animation-delay: 0.13272s;
     left: calc((100% - 5em) * 0.24); }
   .particle:nth-of-type(14) {
-    animation-delay: 0.64335s;
+    animation-delay: 0.88072s;
     left: calc((100% - 5em) * 0.26); }
   .particle:nth-of-type(15) {
-    animation-delay: 0.02531s;
+    animation-delay: 0.43635s;
     left: calc((100% - 5em) * 0.28); }
   .particle:nth-of-type(16) {
-    animation-delay: 0.33564s;
+    animation-delay: 0.4636s;
     left: calc((100% - 5em) * 0.3); }
   .particle:nth-of-type(17) {
-    animation-delay: 0.30051s;
+    animation-delay: 0.72233s;
     left: calc((100% - 5em) * 0.32); }
   .particle:nth-of-type(18) {
-    animation-delay: 0.70361s;
+    animation-delay: 0.52934s;
     left: calc((100% - 5em) * 0.34); }
   .particle:nth-of-type(19) {
-    animation-delay: 0.7327s;
+    animation-delay: 0.82856s;
     left: calc((100% - 5em) * 0.36); }
   .particle:nth-of-type(20) {
-    animation-delay: 0.14352s;
+    animation-delay: 0.34591s;
     left: calc((100% - 5em) * 0.38); }
   .particle:nth-of-type(21) {
-    animation-delay: 0.0295s;
+    animation-delay: 0.08259s;
     left: calc((100% - 5em) * 0.4); }
   .particle:nth-of-type(22) {
-    animation-delay: 0.93992s;
+    animation-delay: 0.82589s;
     left: calc((100% - 5em) * 0.42); }
   .particle:nth-of-type(23) {
-    animation-delay: 0.09822s;
+    animation-delay: 0.20429s;
     left: calc((100% - 5em) * 0.44); }
   .particle:nth-of-type(24) {
-    animation-delay: 0.58351s;
+    animation-delay: 0.51452s;
     left: calc((100% - 5em) * 0.46); }
   .particle:nth-of-type(25) {
-    animation-delay: 0.05349s;
+    animation-delay: 0.24637s;
     left: calc((100% - 5em) * 0.48); }
   .particle:nth-of-type(26) {
-    animation-delay: 0.0141s;
+    animation-delay: 0.69863s;
     left: calc((100% - 5em) * 0.5); }
   .particle:nth-of-type(27) {
-    animation-delay: 0.51937s;
+    animation-delay: 0.36176s;
     left: calc((100% - 5em) * 0.52); }
   .particle:nth-of-type(28) {
-    animation-delay: 0.12796s;
+    animation-delay: 0.33856s;
     left: calc((100% - 5em) * 0.54); }
   .particle:nth-of-type(29) {
-    animation-delay: 0.91826s;
+    animation-delay: 0.49436s;
     left: calc((100% - 5em) * 0.56); }
   .particle:nth-of-type(30) {
-    animation-delay: 0.08455s;
+    animation-delay: 0.16027s;
     left: calc((100% - 5em) * 0.58); }
   .particle:nth-of-type(31) {
-    animation-delay: 0.8308s;
+    animation-delay: 0.00861s;
     left: calc((100% - 5em) * 0.6); }
   .particle:nth-of-type(32) {
-    animation-delay: 0.58081s;
+    animation-delay: 0.57575s;
     left: calc((100% - 5em) * 0.62); }
   .particle:nth-of-type(33) {
-    animation-delay: 0.48588s;
+    animation-delay: 0.24231s;
     left: calc((100% - 5em) * 0.64); }
   .particle:nth-of-type(34) {
-    animation-delay: 0.09324s;
+    animation-delay: 0.99682s;
     left: calc((100% - 5em) * 0.66); }
   .particle:nth-of-type(35) {
-    animation-delay: 0.59232s;
+    animation-delay: 0.0744s;
     left: calc((100% - 5em) * 0.68); }
   .particle:nth-of-type(36) {
-    animation-delay: 0.02392s;
+    animation-delay: 0.32927s;
     left: calc((100% - 5em) * 0.7); }
   .particle:nth-of-type(37) {
-    animation-delay: 0.94374s;
+    animation-delay: 0.24984s;
     left: calc((100% - 5em) * 0.72); }
   .particle:nth-of-type(38) {
-    animation-delay: 0.92672s;
+    animation-delay: 0.63372s;
     left: calc((100% - 5em) * 0.74); }
   .particle:nth-of-type(39) {
-    animation-delay: 0.6257s;
+    animation-delay: 0.29407s;
     left: calc((100% - 5em) * 0.76); }
   .particle:nth-of-type(40) {
-    animation-delay: 0.62814s;
+    animation-delay: 0.77267s;
     left: calc((100% - 5em) * 0.78); }
   .particle:nth-of-type(41) {
-    animation-delay: 0.49005s;
+    animation-delay: 0.31967s;
     left: calc((100% - 5em) * 0.8); }
   .particle:nth-of-type(42) {
-    animation-delay: 0.25408s;
+    animation-delay: 0.06912s;
     left: calc((100% - 5em) * 0.82); }
   .particle:nth-of-type(43) {
-    animation-delay: 0.16297s;
+    animation-delay: 0.96424s;
     left: calc((100% - 5em) * 0.84); }
   .particle:nth-of-type(44) {
-    animation-delay: 0.9383s;
+    animation-delay: 0.28354s;
     left: calc((100% - 5em) * 0.86); }
   .particle:nth-of-type(45) {
-    animation-delay: 0.24019s;
+    animation-delay: 0.73086s;
     left: calc((100% - 5em) * 0.88); }
   .particle:nth-of-type(46) {
-    animation-delay: 0.19224s;
+    animation-delay: 0.64038s;
     left: calc((100% - 5em) * 0.9); }
   .particle:nth-of-type(47) {
-    animation-delay: 0.02869s;
+    animation-delay: 0.04831s;
     left: calc((100% - 5em) * 0.92); }
   .particle:nth-of-type(48) {
-    animation-delay: 0.26327s;
+    animation-delay: 0.75649s;
     left: calc((100% - 5em) * 0.94); }
   .particle:nth-of-type(49) {
-    animation-delay: 0.02124s;
+    animation-delay: 0.93107s;
     left: calc((100% - 5em) * 0.96); }
   .particle:nth-of-type(50) {
-    animation-delay: 0.83141s;
+    animation-delay: 0.16849s;
     left: calc((100% - 5em) * 0.98); }
 
 @keyframes rise {
@@ -6497,8 +6498,15 @@ a.text-dark:hover, a.text-dark:focus {
     opacity: 0;
     transform: translateY(-10em) scale(0); } }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
 main {
   height: 100vh; }
+
+.overflow {
+  overflow: hidden; }
 
 .custom-form {
   width: 50vw;
@@ -6524,29 +6532,34 @@ main {
   position: relative;
   top: 10%; }
 
+.newRocker {
+  font-family: 'New Rocker', cursive; }
+
 .size-lg {
-  font-size: 90px; }
+  font-size: 150px; }
 
 .size-med {
-  font-size: 40px; }
+  font-size: 80px; }
 
 .size-sm {
-  font-size: 25px; }
+  font-size: 50px; }
 
 .btn-custom {
-  color: #FFF; }
+  color: white; }
 
 .btn-custom:hover {
-  color: #FFF;
+  color: white;
   text-decoration: none;
   border: 1px solid #b3b3b3; }
 
 .text-color-custom {
-  color: #FFF;
-  text-shadow: 2px 2px 0px black; }
+  color: white;
+  text-shadow: 3px 3px 0px black; }
 
 body {
-  background-image: url(../images/wood.jpeg); }
+  background-image: url(../images/wood.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 header {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
@@ -6559,18 +6572,95 @@ header {
     mask-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.7)); }
 
 .jumbotron-custom {
-  color: #FFF;
+  color: white;
   text-align: center;
   width: 90vw; }
-  .jumbotron-custom h1 {
-    font-size: 3rem; }
 
 .jumbotron-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/wood.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/wood.jpeg);
   background-position: 0 0;
   background-repeat: no-repeat;
   -webkit-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.75); }
+
+.containerGif {
+  width: 100vw !important; }
+
+.anime-in {
+  position: absolute;
+  visibility: hidden;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  animation-name: exciting1;
+  animation-duration: 8299.156884126342ms;
+  animation-delay: 3824ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; }
+
+@keyframes exciting1 {
+  0% {
+    position: absolute;
+    visibility: visible;
+    right: -350px;
+    bottom: 15px; }
+  100% {
+    position: absolute;
+    right: 20px;
+    bottom: 15px; } }
+
+.anime-out {
+  position: absolute;
+  visibility: hidden;
+  animation-name: exciting2;
+  animation-duration: 14014.8764148833ms;
+  animation-delay: 19774.5148629047ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; }
+
+@keyframes exciting2 {
+  0% {
+    position: absolute;
+    visibility: visible;
+    right: 20px;
+    bottom: 15px; }
+  100% {
+    position: absolute;
+    visibility: hidden;
+    right: -350px;
+    bottom: 15px; } }
+
+.anime-stay {
+  position: absolute;
+  visibility: hidden;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  animation-name: exciting3;
+  animation-duration: 7691.30845798282ms;
+  animation-delay: 12100.0003913595ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; }
+
+@keyframes exciting3 {
+  0% {
+    position: absolute;
+    visibility: visible;
+    right: 20px;
+    bottom: 15px; }
+  100% {
+    position: absolute;
+    visibility: visible;
+    right: 20px;
+    bottom: 15px; } }
 
 /*# sourceMappingURL=style.css.map */
