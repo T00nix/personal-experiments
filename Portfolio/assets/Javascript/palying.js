@@ -18,7 +18,7 @@ function Whatiswrong() {
     if (promptText == "" || promptText == null)
         alert("Please enter your Name!")
     else
-        alert("Hallo, " + promptText + " Wie geht es so?")
+        alert("Hi, " + promptText + "! How is life going?")
 }
 
 console.log("I'm just messing around")
